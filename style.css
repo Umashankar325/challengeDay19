@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://images.pexels.com/photos/16735192/pexels-photo-16735192/free-photo-of-a-large-clock-tower-is-lit-up-at-night.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+nav h1 {
+  font-size: 70px;
+}
+nav p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  width: 700px;
+  margin: 10px auto;
+}
+.pag1 {
+  width: 100%;
+  height: 800px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+.pag1 h2 {
+  font-size: 40px;
+}
+.pag1 .imagcontainer {
+  width: 70%;
+  height: 600px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pag1 .imagcontainer .pic {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(121, 208, 152);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pic1 {
+  background: url(https://media.istockphoto.com/id/174166388/photo/atlantic-puffin.jpg?b=1&s=612x612&w=0&k=20&c=Aush015xUlH-WgsesKO2fLw4O2jAJm35TioTccqn09Q=);
+}
+.pic2 {
+  background: url(https://media.istockphoto.com/id/2147539848/photo/portrate-of-happy-slim-instructor-posing-at-camera-on-athletic-gym-center.jpg?b=1&s=612x612&w=0&k=20&c=rpILEDdJ45Un9NKWWn-Gv_XVCEa4TSut-mmWjWZEUho=);
+}
+.pic3 {
+  background: url(https://media.istockphoto.com/id/1338764906/photo/content-red-cat-enjoying-its-sleep-outdoors.jpg?s=612x612&w=0&k=20&c=uG2NvTItc6CtAVHkSavsLZ6uWo1hX6UL9FqqPXPXkbs=);
+}
+.pic4 {
+  background: url(https://media.istockphoto.com/id/659384726/photo/happy-small-girl-in-a-white-dress-drinking-milk-in-a-green-field.jpg?s=612x612&w=0&k=20&c=s2oZOEQ-URxc5EdHvqOW7zUCsEcNZCJRbLzmpVM0vlU=);
+}
+.pic5 {
+  background: url(https://media.istockphoto.com/id/619401714/photo/ship-on-the-open-seas-in-the-sunset.jpg?s=612x612&w=0&k=20&c=tC4_bTTy57_mspM1ZSZLzpQxbq5Qu5SqUdnvqbOFDj0=);
+}
+.pic6 {
+  background: url(https://media.istockphoto.com/id/592370396/photo/happy-japanese-boy-playing-on-a-beach.jpg?s=612x612&w=0&k=20&c=66JLatsM64so5jFGwCnMbuF6ztswulEEY_E37xM9hH0=);
+}
+.pic7 {
+  background: url(https://media.istockphoto.com/id/1968100821/photo/portrait-of-successful-young-boss-businessman-in-business-suit-looking-at-camera-and-smiling.jpg?s=612x612&w=0&k=20&c=2sU9Gr3HuSgJoc8aJUzG-AryacpuzWHd05bcwgAnHhk=);
+}
+.pic8 {
+  background: url(https://media.istockphoto.com/id/1319001765/photo/portrait-of-businessman-in-an-office.jpg?s=612x612&w=0&k=20&c=QCs7x9AHpyxHWl5GOgtWa8fSNuM2nH3K8McbZeUDkrw=);
+}
+.pic9 {
+  background: url(https://media.istockphoto.com/id/1650342040/photo/office-worker-with-a-smile.jpg?s=612x612&w=0&k=20&c=CDJe_-GWnMkH2HbBlb9HYefHEc8vRK8mox-g-GgvMTc=);
+}
+.pic10 {
+  background: url(https://media.istockphoto.com/id/492696632/photo/view-of-all-saints-bay-in-salvador-bahia-brazil.jpg?s=612x612&w=0&k=20&c=S50MRgXsRdUrEE6yQ4M_cSCr-fwL_5chb5rOWPyu1b4=);
+}
+.pic11 {
+  background: url(https://media.istockphoto.com/id/1158713117/photo/brown-two-story-all-american-home.jpg?s=612x612&w=0&k=20&c=PRsPVVX1JK8Dy0Aa_QQ46EKMO32G8QzK2x5nRjNlyhU=);
+}
+.pic12 {
+  background: url(https://media.istockphoto.com/id/1358965099/photo/senior-couple-hugging-in-a-nursing-home-a-happy-senior-couple-standing-next-to-a-window-in-a.jpg?s=612x612&w=0&k=20&c=EEik9_eF6iXrBpIasiplyeKDf9deQkFmvcdcfOf2Ic8=);
+}
+.pic13 {
+  background: url(https://media.istockphoto.com/id/1273440999/photo/all-quiet-on-diani-beach.jpg?s=612x612&w=0&k=20&c=mBLLFMeOn_XmF20oY70ifAjS3dIGBSk8U4msd3QYR34=);
+}
+
+.pic14 {
+  background: url(https://media.istockphoto.com/id/619727036/photo/all-egypt-pyramids-camels-line-walking-wide-angle.jpg?s=612x612&w=0&k=20&c=5j9qsImGWYHTSGbCa1EeI5Iz9x5yyQg_u3zGZTu4wMg=);
+}
+.pic15 {
+  background: url(https://media.istockphoto.com/id/1312054638/photo/luxurious-closet-with-ample-space-for-all-clothes-and-shoes.jpg?s=612x612&w=0&k=20&c=iF1aw6i6tH1nmE4hFJo_RP-IVqyABsQapoKZ598xARk=);
+}
+.pic16 {
+  background: url(https://media.istockphoto.com/id/1328493330/photo/morning-message-with-tw-flowers-be-patient-with-yourself-nothing-in-nature-blooms-all-year.jpg?s=612x612&w=0&k=20&c=LOQgqCMOccengwqrnVk7-p8hdS8K0X5VeEKp93URRLY=);
+}
+.pag1 .imagcontainer .pic p {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(54, 52, 52, 0.703);
+  bottom: 0;
+  color: white;
+}
+.pag1 button {
+  height: 40px;
+  width: 120px;
+  font-size: 25px;
+  margin: 20px 0px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid #149dcc;
+}
+.pag1 button:first-of-type {
+  background-color: #149dcc;
+  color: white;
+}
+/* .pag1 button:{
+  background-color: #149dcc;
+  color: white;
+} */
+
+footer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 10px;
+}
